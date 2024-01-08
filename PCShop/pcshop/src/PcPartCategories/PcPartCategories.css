@@ -1,0 +1,84 @@
+h1 {
+    margin-bottom: 0.5em;
+}
+
+.parts-container {
+    padding: 20px;
+    max-width: 1000px; 
+    margin: auto; 
+    text-align: center;
+}
+
+.parts-list {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.parts-list li {
+    background-color: #333;; 
+    border: 1px solid #444444; 
+    padding: 15px; 
+    margin-bottom: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s; 
+}
+
+.parts-list li:hover {
+    transform: scale(1.02); 
+}
+
+.parts-list a {
+    text-decoration: none; 
+    color: inherit; 
+    display: block; 
+    color: #ffffff;
+}
+
+.part-add-button{
+    color: green !important;
+}
+
+
+
+.category-link {
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+
+.part-category-item {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #333;
+    border: 1px solid #444444;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.part-category-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-grow: 1;
+}
+
+.category-link {
+    margin-right: 10px;
+}
+
+.additional-content {
+    margin-left: 10px; 
+}
+
+.part-add-button {
+    color: green;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    padding-right: 60px;
+}
+

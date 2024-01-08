@@ -1,0 +1,99 @@
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    position: relative;
+    top: 0; 
+    left: 0;
+    right: 0; 
+    z-index: 1000; 
+}
+
+.page-name {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    display: block;
+    padding: 8px 16px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.menu-item a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.hamburger {
+    display: none;
+    position: absolute;
+    top: 7px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.hamburger span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #fff; 
+}
+
+.navbar {
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar.active {
+    transform: translateX(0);
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #333; 
+        transform: translateX(100%);
+        z-index: 1000;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .menu-item {
+        margin-bottom: 1rem;
+    }
+    .header{
+        padding: 20px 40px;
+    }
+}

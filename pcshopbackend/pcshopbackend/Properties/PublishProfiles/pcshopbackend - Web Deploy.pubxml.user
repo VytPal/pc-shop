@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAyxE7z5sCXkmrzhYRqAfUvAAAAAACAAAAAAAQZgAAAAEAACAAAAAWoXAdLDYdsq2wTCT3y+XiwRmCYaSt0TzYI5wzGqz3WAAAAAAOgAAAAAIAACAAAAD2DNNmUszZT4ieuGEG4ssYDg2bzJytJMes3Wv0+pLl4oAAAABYSZWBU6UtefyDodSLdzD7Lx5X2o8BZP8VpWLF6OviCpvD0SsRHeXvy+SFLUkuAypub8HJ5+/GziS3gfYK/427VvXypthIMP5vzRP7PJj0nh50ThiRf04sK7nZpZJ3PRTJtHFgum50KlhlQbP1iHVK2/rBB2L4MVhmitN/IJkC50AAAAAAF1vc7EknKLB9mDZSEQzAT2RSFpwwZpTnuFaVWffDS+bB1Hv+Xmaq3WX1rlVQ1iXXiUd+qrkFEhsVzCEbDj2c</EncryptedPassword>
+    <History>True|2023-11-24T04:35:12.2773474Z;True|2023-11-24T06:25:08.6819610+02:00;False|2023-11-24T06:24:06.0564145+02:00;True|2023-11-24T05:59:35.2533422+02:00;False|2023-11-24T05:58:14.0839808+02:00;False|2023-11-24T05:54:47.2875201+02:00;False|2023-11-24T05:54:17.6942051+02:00;False|2023-11-24T05:51:54.1516898+02:00;False|2023-11-24T05:51:17.3541233+02:00;False|2023-11-24T05:44:17.7170670+02:00;False|2023-11-24T05:42:24.4872436+02:00;False|2023-11-24T05:29:01.0454881+02:00;False|2023-11-24T05:27:19.0439633+02:00;True|2023-11-24T05:20:12.2976270+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=pcshopbackenddbserver.database.windows.net,1433%3bInitial Catalog=pcshopbackend_db%3bUser ID=Adminas%3bPassword=Password123.</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="pcshopbackend.Data.PcshopContext">
+      <Value>Data Source=pcshopbackenddbserver.database.windows.net,1433%3bInitial Catalog=pcshopbackend_db%3bUser ID=Adminas%3bPassword=Password123.</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
